@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     tools {
-        maven 'localMaven'
+        maven 'localmaven'
     }
     environment {
         fname = "Ranjit"
