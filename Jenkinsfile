@@ -7,8 +7,6 @@ pipeline{
         stage ('Build'){
             steps {
                 echo "Building"
-                sh ...........
-                echo "Building package completed"
             }
         }
         stage ('Test') {
